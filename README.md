@@ -1,32 +1,49 @@
-# Chat-Web-App
+# Chat Web App
 
-## Setup
+A real-time web-based chat application built with Python, Flask, and Socket.IO.
 
-Ensure you have python 3.6+ installed.
+## Features
 
-```bash
-pip install -r requirements.txt
-```
+- Real-time messaging
+- Multiple chat rooms
+- User authentication
+- Responsive design
 
-## Running the Server
+## Installation
 
-```bash
-cd website
-python main.py
-```
+1. Ensure you have Python 3.9 or later installed on your system.
 
-## Clearing Message History
+2. Clone this repository:
 
-To clear the message history simply delete the `messages.db` file.
+   ````bash
+   git clone https://github.com/your-username/Chat-Web-App.git
 
-## Old Message Server
+3. Navigate to the project directory
+    cd Chat-Web-App
 
-Before using socketio for this project I coded out a custom message server that uses standard python sockets. The code for this is located in `old_msg_server/`.
+4.  Create and activate a virtual environment (recommended):
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
-## Livestream
+5. Install the required dependencies:
+    pip install -r requirements.txt
 
-This project was built during a two part livestream.
+Usage
+Running the Server
 
-[Part 1!](https://www.youtube.com/watch?v=i824zN0DGIo&t=15379s)
+1. Navigate to the website directory:
+    cd website
 
-[Part 2!](https://www.youtube.com/watch?v=MgkldDDFJF4)
+2. Start the Flask server:
+    python main.py
+
+3. Open your web browser and visit http://localhost:5000 to access the chat application.
+
+Clearing Message History
+To clear the chat message history, simply delete the messages.db file from the project directory.
+
+Old Message Server
+Before using Socket.IO for real-time messaging, a custom message server was implemented using standard Python sockets. The code for this implementation is located in the old_msg_server/ directory. However, this implementation is no longer being actively maintained or used in the current version of the application.
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
