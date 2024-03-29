@@ -2,8 +2,8 @@ from old_msg_server.client import Client
 import time
 from threading import Thread
 
-c1 = Client("tim")
-c2 = Client("name")
+c1 = Client("James")
+c2 = Client("Mathenge")
 
 
 def update_messages():
@@ -32,9 +32,9 @@ c1.send_message("hello")
 time.sleep(5)
 c2.send_message("hello")
 time.sleep(5)
-c1.send_message("whats up")
+c1.send_message("I just completed the ALX 1 year program")
 time.sleep(5)
-c2.send_message("Nothing much")
+c2.send_message("Congratulations Brother!")
 time.sleep(5)
 
 c1.disconnect()

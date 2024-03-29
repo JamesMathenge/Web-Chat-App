@@ -42,7 +42,7 @@ A real-time web-based chat application built with Python, Flask, and Socket.IO.
 ## Clearing Message History
 To clear the chat message history, simply delete the messages.db file from the project directory.
 
-## Old Message Server
+## Outdated Message Server
 Before using Socket.IO for real-time messaging, a custom message server was implemented using standard Python sockets. The code for this implementation is located in the old_msg_server/ directory. However, this implementation is no longer being actively maintained or used in the current version of the application.
 
 ## Contributing
